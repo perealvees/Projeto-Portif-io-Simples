@@ -1,13 +1,9 @@
 body{
-    background-color: rgba(2, 2, 2, 0.897);
-    color: rgba(255, 255, 255, 0.76);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(78, 74, 74));
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
-    text-align: justify;
-}
-
-header{
-    
+    text-align: justify;   
 }
 
 h1{
@@ -33,11 +29,21 @@ ul{
 a{
     color: rgba(252, 248, 53, 0.714);
     text-decoration: none; /*tirar o sblinhado do link*/
+    border: 1.5px solid rgb(100, 90, 71);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+a:hover{
+    color: #161515;
+    background-color: rgba(255, 255, 255, 0.719);
+    opacity: 6;
+    transition: 0.3s;
 }
 
 img{
-    width: 140px;
-    height:142px;
+    width: 200px;
+    height:200px;
     text-align: center;
     border-radius: 50%;
 }
@@ -62,10 +68,6 @@ img{
     height: 14px;
 }
 
-footer{
-    background-color: black;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+.centralizar{
     text-align: center;
-
 }
